@@ -79,7 +79,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    ֍ Laravel Tickets ֍
+                    &#1421; Laravel Tickets &#1421;
                 </div>
 
                 <div class="links">
