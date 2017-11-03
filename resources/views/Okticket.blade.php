@@ -3,9 +3,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-4">
-                    <h1>Ticket enviado! &#128582; </h1>
+                    <h2>Ticket enviado! &#128582; </h2>
                     <ul>
-                        <li><h2>Informacion</h2></li>
+                        <li><h3>Informacion</h3></li>
                         <li>Dato1: {{$name}}</li>
                     </ul>
                 </div>
