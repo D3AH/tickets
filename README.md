@@ -20,3 +20,9 @@ Pagina web para integrar OTRS con LDAP. Logrando:
 Se recomienda *Via Laravel Installer*. Ya que es mucho mas sencillo de actualizar a nuevas versiones.
 
 - Luego de crear el proyecto sin importar la via. Es necesario ajustar las configuracion de Apache2. 
+
+### Justo en el inicio. 
+- Cuando ya tenemos nuestro proyecto creado hay que generar nuestra llave de aplicación. 
+`php artisan key:generate`
+- Configurar adecuadamente el archivo `.env` te puedes basar en `.env.example`. 
+- Dar los permisos necesariso a las carpetas `storage` y `bootstrap/cache`.
