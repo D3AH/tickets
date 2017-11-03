@@ -1,6 +1,12 @@
 @extends('layouts.app')
 @section('content')
 
-<h1>WARNING: TEST PROPOUSE</h1>
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <h1>☢☢ ADVERTENCIA ENTORNO DE PRUEBA ☢☢</h1>
+        </div>
+    </div>
+</div>
 
 @endsection

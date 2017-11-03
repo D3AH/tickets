@@ -72,6 +72,12 @@
         </nav>
 
         @yield('content')
+
+        <footer style="position: absolute; bottom: 0; width: 100%; height: 60px; line-height: 60px; background-color: #ffffff; border-top: 2px solid #d3e0e9;">
+            <div class="container">
+                <span class="text-muted"> PROYECTO DPD V0.2 BETA</span>
+            </div>
+        </footer>
     </div>
 
     <!-- Scripts -->
