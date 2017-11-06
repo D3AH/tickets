@@ -12,7 +12,7 @@
                     <div style="text-align: center; border: solid #d3e0e9 1px; background-color: white; margin: 1em; padding-bottom: 1em; -webkit-border-radius: 10px;-moz-border-radius: 10px;border-radius: 10px;">
                         <h2>Reportar problema</h2>
                         <h4><strong>Reporta</strong> el problema para recibir ayuda.</h4>
-                        <button class="btn btn-default" type="button"><a href="#">  Reportar nuevo problema</a></button>
+                        <button class="btn btn-default" type="button"><a href="index/1">  Reportar nuevo problema</a></button>
                     </div>
                 </div>
             </div>

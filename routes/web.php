@@ -26,3 +26,5 @@ Route::any('/form', 'PostController@index');
 Route::get('/test', function () {
     return view('start');
 });
+
+Route::get('/index/{opcion}', 'IndexController@Index');
