@@ -8,7 +8,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
+    <title>{{ config('app.name', 'Soporte DPD') }}</title>
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
@@ -29,7 +29,7 @@
 
                     <!-- Branding Image -->
                     <a class="navbar-brand" href="{{ url('/') }}">
-                        {{ config('app.name', 'Laravel') }}
+                        {{ config('app.name', 'Soporte DPD') }}
                     </a>
                 </div>
 
@@ -72,7 +72,8 @@
         </nav>
 
         @yield('content')
-
+    </div>
+    <div class="navbar-fixed-bottom">
         <footer style="position: absolute; bottom: 0; width: 100%; height: 60px; line-height: 60px; background-color: #ffffff; border-top: 2px solid #d3e0e9;">
             <div class="container">
                 <span class="text-muted"> PROYECTO DPD V0.2 BETA</span>
