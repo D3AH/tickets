@@ -15,11 +15,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-
-Route::get('/a', function () {
-    return view('test');
-});
-
 Route::get('/home', 'HomeController@index')->name('home');
 
 Auth::routes();
@@ -27,3 +22,7 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
 Route::any('/form', 'PostController@index');
+
+Route::get('/test', function () {
+    return view('start');
+});
