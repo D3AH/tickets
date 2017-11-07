@@ -1,0 +1,9 @@
+.bloque{
+    border: solid #d3e0e9 1px;
+    background-color: white;
+    margin: 1em;
+    padding-bottom: 1em;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
