@@ -19,11 +19,11 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 Auth::routes();
 
+Route::redirect('/register', '/login');
+
 Route::get('/home', 'HomeController@index')->name('home');
 
 /* ROUTES */
-
-
 //Route::any('/form', 'PostController@index');
 
 Route::get('/inicio', function () {
