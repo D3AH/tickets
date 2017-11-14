@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('start');
+    return view('/auth/login');
 });
 
 Route::get('/home', 'HomeController@index')->name('home');
@@ -21,10 +21,18 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-Route::any('/form', 'PostController@index');
+/* ROUTES */
+
+
+//Route::any('/form', 'PostController@index');
 
 Route::get('/test', function () {
     return view('start');
 });
+Route::get('/ldap', function () {
+    return view('ldap');
+});
 
 Route::get('/index/{opcion}', 'IndexController@Index');
+
+Route::post('/index/crearTicket', 'IndexController@Post');
