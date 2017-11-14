@@ -26,8 +26,8 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 //Route::any('/form', 'PostController@index');
 
-Route::get('/test', function () {
-    return view('start');
+Route::get('/inicio', function () {
+    return view('inicio');
 });
 Route::get('/ldap', function () {
     return view('ldap');

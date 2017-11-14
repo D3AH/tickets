@@ -10,13 +10,13 @@ class IndexController extends Controller
     public function index(Request $request, $opcion) {
         switch ($opcion) {
             case "crearTicket":
-                return view('form');
+                return view('tickets/crear');
                 break;
             case "controlTicket":
-                return "Seguimiento";
+                return view('tickets/seguimiento');
                 break;
             case "wizardAyuda":
-                return "Wizard Ayuda";
+                return view('ayuda/wizard');
                 break;
             case "sobreEsto":
                 return "Que es esto!";

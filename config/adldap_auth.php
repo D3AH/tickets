@@ -131,7 +131,7 @@ return [
         |
         */
 
-        'ldap' => 'userprincipalname',
+        'ldap' => 'samaccountname',
 
         /*
         |--------------------------------------------------------------------------
@@ -147,7 +147,7 @@ return [
         |
         */
 
-        'eloquent' => 'email',
+        'eloquent' => 'username',
 
     ],
 
@@ -239,7 +239,7 @@ return [
 
     'sync_attributes' => [
 
-        'email' => 'userprincipalname',
+        'username' => 'samaccountname',
         'name' => 'cn',
 
     ],

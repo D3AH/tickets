@@ -50,12 +50,13 @@
                             <label for="descripcion">Descripcion</label>
                             <textarea name="body" class="form-control" id="descripcion" rows="3" required></textarea>
                         </div>
-                        <div class="form-group">
-                            <label class="custom-file">
-                                <input type="file" id="file2" class="custom-file-input">
-                                <span class="custom-file-control"></span>
-                            </label>
-                        </div>
+                        {{--Aun no se ha implementado en el web service--}}
+                        {{--<div class="form-group">--}}
+                            {{--<label class="custom-file">--}}
+                                {{--<input type="file" id="file2" class="custom-file-input">--}}
+                                {{--<span class="custom-file-control"></span>--}}
+                            {{--</label>--}}
+                        {{--</div>--}}
                         <button type="submit" class="btn btn-primary">Enviar</button>
                     </form>
                 </div>
